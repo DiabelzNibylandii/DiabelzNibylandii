@@ -1,0 +1,27 @@
+
+powitanie = 'Witaj'
+print(powitanie)
+
+name = input('Jak sie nazywasz? : ')
+
+print('czesc ' + name)
+
+miasto = input('gdzie mieszkasz ?: ')
+print('piekne miasto ' + miasto)
+
+chlopak = input(' masz chlopaka ?: ')
+
+odpowiedz = 'tak'
+
+x = ['tak']
+y = ['nie']
+
+print()
+
+if chlopak in x:
+        print('chlopak nie wagon mozna odczepic ;)')
+if chlopak in y:
+        print('a chcesz miec ?:)') 
+        
+        
+        działa !!:D
