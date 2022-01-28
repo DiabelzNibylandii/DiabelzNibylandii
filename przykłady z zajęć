@@ -1,0 +1,32 @@
+dzien = 'Sobota'
+
+
+dni_pracujace = [
+        'Poniedzialek',
+        'Wtorek',
+        'Sroda',
+        'Czwartek',
+        'Piatek',
+]
+
+weekend = [
+        'Sobota',
+        'Niedziela',
+]
+print()
+#print(dni_pracujace)
+#print(weekend)
+
+
+
+#if dzien == dzisiaj
+
+#       print('Tak dzisiaj jest sroda')
+if dzien in dni_pracujace:
+        print('1. Dzisiaj jest dzien pracujacy')
+if dzien in weekend:
+        print('2. Dzisiaj jest weekend')
+else:
+        print ('3. Zle napisales dzien tygodnia')
+
+print('4. Koniec')
