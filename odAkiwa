@@ -1,0 +1,11 @@
+Trochę inne podejście do tematu:
+def marka(argument):
+    key = ('Marka niemiecka' if argument in marka_Niemiecka else
+           'Marka włoska' if argument in marka_Wloska else
+           'Marka brytyjska' if argument in marka_Brytyjska else
+           'Marka japońska' if argument in marka_Japonska else
+           'Marka koreańska' if argument in marka_Poludniowokoreanska else
+           'Nieznana marka')
+    return {key: argument}
+
+print(marka('Audi'))
